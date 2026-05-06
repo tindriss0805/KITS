@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tindras IT Shop</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #f0f8ff;
+            color: #333;
+        }
+
+        header {
+            background: linear-gradient(90deg, #4b6cb7, #182848);
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+
+        nav {
+            background-color: #333;
+            padding: 10px;
+            text-align: center;
+        }
+
+        nav a {
+            color: white;
+            margin: 0 15px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        nav a:hover {
+            text-decoration: underline;
+        }
+
+        section {
+            padding: 40px 20px;
+            max-width: 1000px;
+            margin: auto;
+        }
+
+        h2 {
+            color: #4b6cb7;
+        }
+
+        .card {
+            background-color: white;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            padding: 20px;
+            margin: 20px;
+            text-align: center;
+            transition: transform 0.2s;
+        }
+
+        ul {
+            padding-left: 20px;
+        }
+
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+
+        .btn {
+            background-color: #4b6cb7;
+            color: white;
+            padding: 10px 15px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 16px;
+        }
+
+        .btn:hover {
+            background-color: #182848;
+        }
+
+        input,
+        textarea {
+            width: 100%;
+            padding: 10px;
+            margin: 10px 0;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+    </style>
+
+</head>
+
+<body>
+    <header>
+        <h1>Tindras IT Shop</h1>
+        <p>Din expert på datorer, reparationer och teknik.</p>
+    </header>
+
+    <nav>
+        <a href="#oppettider">Öppettider</a>
+        <a href="#lager">Lager</a>
+        <a href="#tjänster">Tjänster</a>
+        <a href="#hemservice">Hemservice</a>
+        <a href="#tv">TV & Ljud</a>
+        <a href="#boka">Boka tid</a>
+    </nav>
+    <section id="oppettider">
+        <h2>Öppettider</h2>
+        <p>Vi har öppet måndag till fredag från 10:00 till 18:00, och lördag från 10:00 till 14:00. Söndagar har vi
+            stängt.</p>
+    </section>
+
+    <section id="lager">
+        <h2>Lager</h2>
+        <p>Vi har ett brett sortiment av datorer, komponenter och tillbehör. Vårt lager uppdateras regelbundet med de
+            senaste produkterna från ledande märken.</p>
+    </section>
+
+    <section id="tjänster">
+        <h2>Tjänster</h2>
+        <ul>
+            <li>Datorreparationer</li>
+            <li>Virus- och malwareborttagning</li>
+            <li>Dataåterställning</li>
+            <li>Installation av programvara</li>
+            <li>Rådgivning och support</li>
+        </ul>
+    </section>
+
+    <section id="hemservice">
+        <h2>Hemservice</h2>
+        <p>Vi erbjuder hemservice för våra kunder i Malmö. Vi kan hjälpa dig med installationer, reparationer och
+            teknisk support direkt i ditt hem.</p>
+    </section>
+
+    <section id="lager">
+        <h2>Komponenter i lager</h2>
+        <div class="card">
+            <ul>
+                <li>Grafikkort (NVIDIA / AMD)</li>
+                <li>RAM-minnen (8GB, 16GB, 32GB)</li>
+                <li>SSD & HDD lagring</li>
+                <li>Processorer (Intel & AMD)</li>
+                <li>Nätaggregat</li>
+                <li>Kylsystem & fläktar</li>
+            </ul>
+        </div>
+    </section>
+
+    <section id="tjanster">
+        <h2>Felsökning & Reparationer</h2>
+        <div class="card">
+            <ul>
+                <li>Felsökning av datorproblem</li>
+                <li>Byte av komponenter</li>
+                <li>Virusrensning</li>
+                <li>Installation av operativsystem</li>
+                <li>Prestandaoptimering</li>
+            </ul>
+        </div>
+    </section>
+
+    <section id="hemservice">
+        <h2>Hemservice</h2>
+        <div class="card">
+            <p>Vi erbjuder hemservice där vi kommer hem till dig och hjälper med:</p>
+            <ul>
+                <li>Installation av datorer</li>
+                <li>WiFi & nätverk</li>
+                <li>Felsökning på plats</li>
+            </ul>
+            <p>Perfekt för dig som vill ha hjälp direkt i hemmet!</p>
+        </div>
+    </section>
+
+    <section id="tv">
+        <h2>TV & Hemmabio</h2>
+        <div class="card">
+            <ul>
+                <li>Smart-TV från Samsung, LG & Sony</li>
+                <li>Soundbars & surroundsystem</li>
+                <li>Projektorer</li>
+                <li>Installation och montering</li>
+            </ul>
+        </div>
+    </section>
+
+    <section id="boka">
+        <h2>Boka tid</h2>
+        <div class="card">
+            <form>
+                <label>Namn:</label>
+                <input type="text" placeholder="Ditt namn">
+
+                <label>Email:</label>
+                <input type="email" placeholder="Din email">
+
+                <label>Vad behöver du hjälp med?</label>
+                <textarea rows="4" placeholder="Beskriv ditt problem..."></textarea>
+
+                <button class="btn">Skicka bokning</button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2026 Tindras IT Shop. Alla rättigheter förbehållna.</p>
+    </footer>
+
+
+</body>
+
+</html>
