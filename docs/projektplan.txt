@@ -2,60 +2,51 @@ Projektplan – Tindras IT Shop
 
 1. Projektets namn
     Tindras IT Shop
+
 2. Projektets mål
-    Målet är att skapa en IT-shop som hjälper kunder med teknikproblem, installationer och köp av IT-produkter. Företaget ska göra teknik enklare för människor.
+    Målet är att skapa en komplett webbplats åt Tindras IT Shop som visar öppettider, lager, tjänster, felsökning, hemmabio och bokningsmöjligheter. Webbplatsen ska vara tydlig, tillgänglig och visas bra på både mobil och dator.
+
 3. Målgrupp
-    •	Privatpersoner som behöver hjälp med datorer eller telefoner
-    •	Äldre personer som behöver hjälp med teknik
-    •	Små företag som behöver IT-hjälp
-4. Tjänster (vad man kan göra i butiken)
-Service och hjälp
-    •	Felsöka datorer och telefoner
-    •	Ta bort virus
-    •	Installera program
-    •	Hjälpa med Wi-Fi och internetproblem
-    •	Rensa lagring och göra datorn snabbare
-Installation
-    •	Boka tid för installation av dator eller mobil
-    •	Installera skrivare
-    •	Installera program som Office eller antivirus
-    •	Installera router och internet
-Rådgivning
-    •	Hjälpa kunder välja rätt dator eller mobil
-    •	Tips om säkerhet på internet
-    •	Hjälpa att överföra bilder och filer till ny enhet
-Övrigt
-    •	Uppdatera system
-    •	Säkerhetskopiera filer
-    •	Hjälp med konton (Apple-ID, Google, Microsoft)
-5. Bokningssystem
-Kunder kan boka tid för hjälp via:
-    •	Hemsida
-    •	Telefon
-    •	Direkt i butiken
-Exempel på bokningar:
-    •	Installation av ny dator
-    •	Virusrensning
-    •	Wi-Fi-installation hemma
-    •	Dataöverföring till ny mobil
-6. Utrustning som behövs
-    •	Datorer
-    •	Verktyg för reparation
-    •	Antivirusprogram
-    •	Testkablar och adaptrar
-    •	Kassasystem
-7. Tidsplan (exempel)
+    • Privatpersoner som behöver hjälp med datorer, uppgraderingar och hemservice.
+    • Kunder som vill köpa TV, ljudsystem eller få hjälp med hemmabio.
+    • Användare som vill boka tid enkelt och få snabb support.
 
-    Vecka	Vad som görs
+4. Användarfall
+    • Kunden vill titta på vilka komponenter som finns i lager.
+    • Kunden vill se vilka öppettider som gäller.
+    • Kunden vill boka tid för hemservice.
+    • Kunden vill läsa om felsökning och optimering av datorer.
+    • Kunden vill kontrollera utbudet av TV-apparater och ljudanläggningar.
+    • Kunden vill hitta kontaktinformation och adress.
 
-    Vecka 1	Planera företagets idé
-    Vecka 2	Bestämma tjänster
-    Vecka 3	Skapa hemsida och bokningssystem
-    Vecka 4	Marknadsföra butiken
-8. Marknadsföring
-    •	Sociala medier (Instagram / TikTok)
-    •	Affischer i området
-    •	Reklam via hemsidan
-9. Förväntat resultat
-    Tindras IT Shop ska hjälpa människor med teknikproblem och göra IT enklare att förstå.
+5. Milstolpar
+    • Milstolpe 1 – Startmöte med Tindra: samla krav, granska mål och bestäm funktioner. Rapportering sker till Tindra efter första planeringsmötet.
+    • Milstolpe 2 – Struktur och innehåll: skapa HTML-struktur, navigering och innehåll för öppettider, lager, tjänster och hemservice. Rapportera progress med en första fungerande version.
+    • Milstolpe 3 – Design och interaktivitet: skapa lila lavendertema, layout i CSS och enklare JavaScript för bokningsformulär. Rapportera att design samt bokningsfunktion är klar.
+    • Milstolpe 4 – Testning och leverans: testa i flera webbläsare och på mobil, använda automatiska tillgänglighetstest som Lighthouse och optimera laddningstiden.
 
+6. Teknik och lösning
+    • HTML för struktur, semantiska element och bra rubriker.
+    • CSS för färgtema, responsiv design, layout och estetisk stil.
+    • JavaScript för validering av bokningsformulär och visning av bekräftelse.
+    • Automatiserade tester via Lighthouse för tillgänglighet och prestanda.
+
+7. Testning och optimering
+    • Testa webbplatsen i flera webbläsare (Chrome, Edge, Firefox).
+    • Testa på både mobil och dator för att säkerställa responsiv design.
+    • Använd Lighthouse för att kontrollera tillgänglighet, prestanda och bästa webbpraxis.
+    • Optimera media och layout så sidan laddar snabbt.
+
+8. Lagar, säkerhet och etik
+    • Respektera GDPR genom att inte lagra känsliga uppgifter direkt på sidan.
+    • Använda säker e-post och skydd mot skräppost genom att endast visa kontaktuppgifter, inte personlig information.
+    • Resonera om risker med dataintrång och förklara varför kundens information ska hanteras ansvarsfullt.
+    • Använda tydlig information om vad som samlas in i bokningsformuläret.
+
+9. Terminologi
+    • Använd semantiska HTML-element som <header>, <main>, <section> och <footer>.
+    • Använd CSS-grid, responsiv design och variabler för färger.
+    • Beskriv funktionalitet med termer som tillgänglighet, användarfall, validering och Lighthouse.
+
+10. Förväntat resultat
+    Tindras IT Shop ska bli en komplett och snygg webbplats med tydlig navigation, fungerande bokningsformulär, lila design och bra läsbarhet för målgruppen.

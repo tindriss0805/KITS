@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="sv">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Boka tid - Tindras IT Shop</title>
+    <meta name="description" content="Boka tid för hemservice, datorreparation eller optimering hos Tindras IT Shop.">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header class="hero">
+        <div class="hero-inner">
+            <span class="eyebrow">Boka tid</span>
+            <h1>Boka tid</h1>
+            <p>Fyll i formuläret för att boka en tid för hembesök, reparation eller optimering.</p>
+        </div>
+    </header>
+
+    <nav class="site-nav" aria-label="Huvudnavigation">
+        <a href="index.html">Startsida</a>
+        <a href="oppettider.html">Öppettider</a>
+        <a href="lager.html">Lager</a>
+        <a href="tjanster.html">Tjänster</a>
+        <a href="felsokning.html">Felsökning</a>
+        <a href="hemservice.html">Hemservice</a>
+        <a href="tv.html">TV & Ljud</a>
+        <a href="boka.html">Boka tid</a>
+    </nav>
+
+    <main>
+        <section class="section section-primary">
+            <div class="section-header">
+                <h2>Bokningsformulär</h2>
+                <p>Välj tjänst, datum och beskriv ditt problem så återkommer vi med förslag inom 24 timmar.</p>
+            </div>
+            <div class="booking-grid">
+                <form id="booking-form" class="booking-form">
+                    <label for="name">Namn</label>
+                    <input id="name" name="name" type="text" placeholder="Ditt namn" required>
+
+                    <label for="email">E-post</label>
+                    <input id="email" name="email" type="email" placeholder="din@mail.se" required>
+
+                    <label for="service">Välj tjänst</label>
+                    <select id="service" name="service" required>
+                        <option value="">Välj en tjänst</option>
+                        <option value="Datorreparation">Datorreparation</option>
+                        <option value="Hemservice">Hemservice</option>
+                        <option value="Optimering">Optimering</option>
+                        <option value="TV och ljud">TV och ljud</option>
+                    </select>
+
+                    <label for="date">Önskat datum</label>
+                    <input id="date" name="date" type="date" required>
+
+                    <label for="message">Beskrivning</label>
+                    <textarea id="message" name="message" rows="5" placeholder="Vad behöver du hjälp med?"
+                        required></textarea>
+
+                    <button class="btn" type="submit">Skicka bokning</button>
+                </form>
+                <div id="booking-feedback" class="booking-feedback" aria-live="polite"></div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <p>&copy; 2026 Tindras IT Shop. Alla rättigheter förbehållna.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
